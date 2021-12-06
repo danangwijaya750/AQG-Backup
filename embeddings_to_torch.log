@@ -1,0 +1,60 @@
+[2021-08-24 06:03:05,759 INFO] From: data/processed/onmt/squad_id_split0.9_cased.vocab.pt
+[2021-08-24 06:03:05,759 INFO] 	* source vocab: 50002 words
+[2021-08-24 06:03:05,759 INFO] 	* target vocab: 30004 words
+[2021-08-24 06:03:05,770 INFO] Reading encoder and decoder embeddings from models/word-embedding/ft_to_gl_300_id.vec
+[2021-08-24 06:04:24,341 INFO] From: data/processed/onmt/squad_id_split0.9_cased.vocab.pt
+[2021-08-24 06:04:24,341 INFO] 	* source vocab: 50002 words
+[2021-08-24 06:04:24,341 INFO] 	* target vocab: 30004 words
+[2021-08-24 06:04:24,353 INFO] Reading encoder and decoder embeddings from models/word-embedding/ft_to_gl_300_id.vec
+[2021-08-24 06:04:47,978 INFO] 	Found 2000000 total vectors in file
+[2021-08-24 06:04:47,978 INFO] After filtering to vectors in vocab:
+[2021-08-24 06:04:47,997 INFO] 	* enc: 44875 match, 5127 missing, (89.75%)
+[2021-08-24 06:04:48,009 INFO] 	* dec: 27654 match, 2350 missing, (92.17%)
+[2021-08-24 06:04:48,009 INFO] 
+Saving embedding as:
+	* enc: data/processed/onmt/embeddings_cased.enc.pt
+	* dec: data/processed/onmt/embeddings_cased.dec.pt
+[2021-08-24 06:04:49,150 INFO] 
+Done.
+[2021-08-25 00:41:27,777 INFO] From: data/processed/onmt/squad_id_split0.9_uncased.vocab.pt
+[2021-08-25 00:41:27,777 INFO] 	* source vocab: 50002 words
+[2021-08-25 00:41:27,777 INFO] 	* target vocab: 30004 words
+[2021-08-25 00:41:27,788 INFO] Reading encoder and decoder embeddings from models/word-embedding/ft_to_gl_300_id.vec
+[2021-08-25 00:41:50,056 INFO] 	Found 2000000 total vectors in file
+[2021-08-25 00:41:50,056 INFO] After filtering to vectors in vocab:
+[2021-08-25 00:41:50,070 INFO] 	* enc: 35276 match, 14726 missing, (70.55%)
+[2021-08-25 00:41:50,079 INFO] 	* dec: 22938 match, 7066 missing, (76.45%)
+[2021-08-25 00:41:50,079 INFO] 
+Saving embedding as:
+	* enc: data/processed/onmt/embeddings_uncased.enc.pt
+	* dec: data/processed/onmt/embeddings_uncased.dec.pt
+[2021-08-25 00:41:50,901 INFO] 
+Done.
+[2021-08-25 09:59:16,706 INFO] From: data/processed/onmt/squad_id_split0.9_cased.vocab.pt
+[2021-08-25 09:59:16,706 INFO] 	* source vocab: 50002 words
+[2021-08-25 09:59:16,706 INFO] 	* target vocab: 30004 words
+[2021-08-25 09:59:16,717 INFO] Reading encoder and decoder embeddings from models/word-embedding/ft_to_gl_300_id.vec
+[2021-08-25 09:59:39,706 INFO] 	Found 2000000 total vectors in file
+[2021-08-25 09:59:39,706 INFO] After filtering to vectors in vocab:
+[2021-08-25 09:59:39,722 INFO] 	* enc: 44875 match, 5127 missing, (89.75%)
+[2021-08-25 09:59:39,732 INFO] 	* dec: 27654 match, 2350 missing, (92.17%)
+[2021-08-25 09:59:39,732 INFO] 
+Saving embedding as:
+	* enc: data/processed/onmt/embeddings_cased.enc.pt
+	* dec: data/processed/onmt/embeddings_cased.dec.pt
+[2021-08-25 09:59:41,135 INFO] 
+Done.
+[2021-08-26 10:43:53,281 INFO] From: data/processed/onmt/tydiqa_id_split0.9_cased.vocab.pt
+[2021-08-26 10:43:53,281 INFO] 	* source vocab: 18359 words
+[2021-08-26 10:43:53,281 INFO] 	* target vocab: 5252 words
+[2021-08-26 10:43:53,283 INFO] Reading encoder and decoder embeddings from models/word-embedding/ft_to_gl_300_id.vec
+[2021-08-26 10:44:14,604 INFO] 	Found 2000000 total vectors in file
+[2021-08-26 10:44:14,604 INFO] After filtering to vectors in vocab:
+[2021-08-26 10:44:14,609 INFO] 	* enc: 17435 match, 924 missing, (94.97%)
+[2021-08-26 10:44:14,612 INFO] 	* dec: 5189 match, 63 missing, (98.80%)
+[2021-08-26 10:44:14,612 INFO] 
+Saving embedding as:
+	* enc: data/processed/onmt/embeddings_cased.enc.pt
+	* dec: data/processed/onmt/embeddings_cased.dec.pt
+[2021-08-26 10:44:15,112 INFO] 
+Done.
