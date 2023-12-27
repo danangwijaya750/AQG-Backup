@@ -55,7 +55,16 @@ def get_pos_tag(text):
     }
     response = requests.post(url_pos, headers=headers, json=data)
     jsondata=response.json()
-    return jsondata['sentences']['sentences'][0]
+    pos_tags = []
+    for sentence in jsondata['sentences']['sentences']:
+        tokens = sentence.get('tokens', [])
+        sentence_tags = [[token.get('token', ''), token.get('pos_tag', '')] for token in tokens]
+        pos_tags.append(sentence_tags)
+
+    # Create the final dictionary in the desired format
+    result = {'postags': pos_tags}
+#    return numpy.array(result)
+    return result
 
 def get_ner(text):
     data = {
